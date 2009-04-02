@@ -1,0 +1,11 @@
+---
+title:      Gallery
+created_at: 2009-03-05 19:46:33.423204 +10:00
+filter:
+  - erb
+  - textile
+---
+p(title). <%= h(@page.title) %><ul class="gallery_list">
+	<li><a href="gallery20080811.html"><img src="images/20080811_240x180.jpg" alt="11th of August"><br/>11th of August</a></li>
+	<li><a href="gallery20080828.html"><img src="images/20080828_240x180.jpg" alt="28th of August"><br/>28th of August</a></li>	
+</ul>

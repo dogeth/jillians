@@ -1,0 +1,100 @@
+---
+extension: css
+filter:    erb
+layout:    nil   # no layout
+
+color:
+  background: "#cb0368"
+  text: "#6f6f6f"
+  button: "#cb4c8c"
+  buttonhover: "#f076ad"
+  border: "white"
+  light:  "#fff"
+---
+
+body {
+    background: <%= @page.color['background'] %>;
+		color: <%= @page.color['text'] %>;
+}
+
+#doc {
+    width: 698px;
+    background: <%= @page.color['light'] %>;
+    border: 1px solid <%= @page.color['border'] %>;
+}
+
+* html #doc {
+    width: 700px;
+    w\idth: 698px;
+}
+
+#hd {
+	    margin: 0;
+	    padding: 9px 18px;
+			text-align: center;
+}
+
+.nav {
+	margin-bottom: 1px;
+}
+
+.nav li {
+    float: left;
+    list-style: none;
+    width: 139px;
+    font-size: 11px;
+    font-weight: bold;
+    border-left: 1px solid <%= @page.color['border'] %>;
+    text-align: center;
+}
+
+.nav li.first {
+    width: 138px;
+    border-left: none;
+}
+
+.nav a {
+    color: <%= @page.color['light'] %>;
+    display: block;
+    text-decoration: none;
+    background: <%= @page.color['button'] %>;
+    padding: 2px 0;
+    width: 100%;
+}
+
+.nav a:hover {
+    background: <%= @page.color['buttonhover'] %>;
+}
+
+.main {
+	background: url(images/background_428x525.png) no-repeat;
+	min-height: 525px;
+	height: auto !important;
+	height: 525px;
+}
+
+.main_gallery {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.gallery_list {
+	text-align: center;
+}
+
+.right-content {
+	padding: 10px;
+	width: 55%;
+	float: right;
+}
+.title {
+	font-size: 20px;
+}
+
+#ft {
+    color: <%= @page.color['light'] %>;
+    background: <%= @page.color['background'] %>;
+    text-align: center;
+    padding: 8px 0;
+}
+
