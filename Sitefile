@@ -1,7 +1,12 @@
+SITE.user = 'jillians'
+SITE.host = 'ssh.jillians.com.au'
+SITE.remote_dir = '/home/jillians/public_html'
 
 task :default => :build
 
 desc 'deploy the site to the webserver'
-task :deploy => [:build, 'deploy:rsync']
+task :deploy => [:build, 'deploy:ssh']
 
 # EOF
+
+

@@ -1,5 +1,5 @@
 ---
-title:      Specials
+title:      Jillians Specials
 created_at: 2009-03-05 19:46:40.499907 +10:00
 filter:
   - erb

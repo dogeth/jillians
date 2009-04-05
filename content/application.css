@@ -87,6 +87,10 @@ body {
 	width: 55%;
 	float: right;
 }
+
+.right-content > p {
+	margin-bottom:5px;
+}
 .title {
 	font-size: 20px;
 }
@@ -97,4 +101,6 @@ body {
     text-align: center;
     padding: 8px 0;
 }
+
+
 

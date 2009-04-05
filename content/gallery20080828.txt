@@ -1,5 +1,5 @@
 ---
-title:      Gallery
+title:      Jillians Gallery
 created_at: 2009-03-05 19:46:33.423204 +10:00
 gallery: true
 filter:

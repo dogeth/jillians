@@ -1,19 +1,29 @@
 ---
-title:       Home Page
+title:       Jillians Home
 created_at:  2008-08-02 14:06:40.000000 -06:00
 filter:
   - erb
   - textile
 ---
-p(title). <%= @page.title %>
+p(title). Welcome to Jillian’s!
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nunc congue ipsum vestibulum libero. Aenean vitae justo. Nam eget tellus. Etiam convallis, est eu lobortis mattis, lectus tellus tempus felis, a ultricies erat ipsum at metus.
 
-h2. Litora Sociis
+p. The boutique for the young at heart, and has an eye for quality and detail.
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi et risus. Aliquam nisl. Nulla facilisi. Cras accumsan vestibulum ante. Vestibulum sed tortor. Praesent tempus fringilla elit. Ut elit diam, sagittis in, nonummy in, gravida non, nunc. Ut orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Nam egestas, orci eu imperdiet malesuada, nisl purus fringilla odio, quis commodo est orci vitae justo. Aliquam placerat odio tincidunt nulla. Cras in libero. Aenean rutrum, magna non tristique posuere, erat odio eleifend nisl, non convallis est tortor blandit ligula. Nulla id augue.
 
-bq. Nullam mattis, odio ut tempus facilisis, metus nisl facilisis metus, auctor consectetuer felis ligula nec mauris. Vestibulum odio erat, fermentum at, commodo vitae, ultrices et, urna. Mauris vulputate, mi pulvinar sagittis condimentum, sem nulla aliquam velit, sed imperdiet mi purus eu magna. Nulla varius metus ut eros. Aenean aliquet magna eget orci. Class aptent taciti sociosqu ad litora.
+p. Jillian’s has an invigorated approach to fashion and a commitment to the mature market.
 
-Vivamus euismod. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse vel nibh ut turpis dictum sagittis. Aliquam vel velit a elit auctor sollicitudin. Nam vel dui vel neque lacinia pretium. Quisque nunc erat, venenatis id, volutpat ut, scelerisque sed, diam. Mauris ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec mattis. Morbi dignissim sollicitudin libero. Nulla lorem.
 
+p. Our clothes are a blend of old favourites and new classics mixed with Jewellery, Handbags and accessories.  Designers include the old classics like Black Pepper, Toronto, FM, Jaki- K, Jodanne, Lucia Darlin and Pelaco just to name a few.
+
+
+p. Jillians specialize in mature fashions, Mother of the bride, evening and casual wear with an extensive size range from 8-26.
+
+
+p. Jillian’s prides it self on service and the friendly staff are always helpful and are always available for a chat.
+
+
+p. The next chapter in the evolution of Jillian’s will be the website development with monthly specials and a mail order facility for our country &amp; international customers.
+
+
+p. Our Shop is open Monday to Friday 9am to 5.00pm and 9am to 2pm on Saturdays so why not drop in to the store, say hello, grab a bargain and ask us about our VIP programme.
